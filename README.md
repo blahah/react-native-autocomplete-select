@@ -16,7 +16,7 @@
 
 ```bash
 
-npm install --save react-native-autocomplete-select
+npm install --save rn-autocomplete-select
 
 ```
 

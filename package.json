@@ -1,11 +1,11 @@
 {
-  "name": "react-native-autocomplete-select",
+  "name": "rn-autocomplete-select",
   "version": "1.0.0",
   "description": "AutoComplete with selection for react-native",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Vizir/react-native-autocomplete-select.git"
+    "url": "git://github.com/Austyns/react-native-autocomplete-select.git"
   },
   "scripts": {
     "lint": "standard --verbose | snazzy",
