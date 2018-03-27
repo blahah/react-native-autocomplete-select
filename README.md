@@ -1,5 +1,7 @@
 # react-native-autocomplete-select
 
+## This is a forked version of the orignal project with an improvement to work for my use-case
+
 ![alt text](autocompleteSelect.jpg "Autocomplete React Native")
 
 > Simple AutoComplete with selection for react-native
