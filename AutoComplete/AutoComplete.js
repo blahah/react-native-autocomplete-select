@@ -109,6 +109,7 @@ class AutoComplete extends Component {
           {...this.props}
           onChangeText={this.onChangeText}
           style={this.props.inputStyle || Styles.input}
+          label={this.props.label}
         />
 
         {this.renderSuggestions()}
@@ -129,6 +130,7 @@ AutoComplete.propTypes = {
   suggestionStyle: PropTypes.any,
   suggestionTextStyle: PropTypes.any,
   style: PropTypes.any,
+  label: PropTypes.string,
   inputStyle: PropTypes.any
 }
 

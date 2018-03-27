@@ -26,7 +26,7 @@ Simple example:
 
 ```JavaScript
 
-import AutoComplete from 'react-native-autocomplete-select'
+import AutoComplete from 'rn-autocomplete-select'
 
 ...
 
