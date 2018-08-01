@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { TouchableHighlight, Text, TextInput, View } from 'react-native'
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 import stringScore from 'string_score'
 import Styles from './Styles'
 
@@ -107,6 +107,7 @@ class AutoComplete extends Component {
       <View style={this.props.style || Styles.wrapper}>
         <TextInput
           {...this.props}
+          onFocus={this.props.inputOnFocus}
           onChangeText={this.onChangeText}
           style={this.props.inputStyle || Styles.input}
           label={this.props.label}

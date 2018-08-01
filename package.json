@@ -9,7 +9,6 @@
   },
   "scripts": {
     "lint": "standard --verbose | snazzy",
-    "precommit": "npm run lint && npm test",
     "test": "NODE_ENV=production jest"
   },
   "keywords": [
@@ -21,8 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react": ">=15.4.1",
-    "react-native": ">=0.38.0",
     "string_score": "git+https://github.com/ThiagoNP/string_score.git"
   },
   "devDependencies": {
@@ -31,6 +28,8 @@
     "enzyme": "^2.7.1",
     "husky": "^0.13.1",
     "jest": "^18.1.0",
+    "react": ">=15.4.1",
+    "react-native": ">=0.38.0",
     "react-addons-test-utils": ">=15.4.1",
     "react-dom": ">=15.4.1",
     "snazzy": "^6.0.0",
